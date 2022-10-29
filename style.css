@@ -10,13 +10,10 @@ nav{
     background-color: white;
     display: grid;
     place-items: center;
-    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.15);
+    box-shadow: 0 5px 5px rgb(0, 0, 0, 0.15);
 }
 .nav-center{
     /* border: 1px solid red; */
-    top: 0;
-    left: 0;
-    right: 0;
     width: 90vw;
     max-width: 620px;
     display: flex;
@@ -52,8 +49,7 @@ a:hover{
     place-items: center;
 }
 h2{
-    border: 1px solid black;
-    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid black; */
     padding: 10px 15px;
     border-radius: 5px;
     background-color: black;
@@ -64,11 +60,11 @@ h2{
 }
 .btn-hero{
     background-color: transparent;
-    padding: 5px 5px;
+    padding: 8px 10px;
     font-weight: 700;
     border-radius: 3px;
     cursor: pointer;
-    transition: 0.15s;
+    transition: background-color 0.2s;
 }
 .btn-hero:hover{
     background-color: black;
